@@ -21,20 +21,19 @@ def main():
 #--------------------------------Banner/LOGO------------------------------------------
 def logo():
   print """%s
-   __                                   
-   / ___ __  __ _ _ __  _ __  ___ _ _ ___ %sAuthor by %dhani2811%s
-  \__ \ '_ \/ _` | '  \| '  \/ -_) '_(_-< %sGithub %sgithub.com/D28112003%s
-  |___/ .__/\__,_|_|_|_|_|_|_\___|_| /__/ 
+ %sAuthor by %dhani2811%s
+ %sGithub %sgithub.com/D28112003%s
+
                    |_|                                 %sTools spam otp dengan 29 spammers"""%(qu,pu,ku,qu,pu,ku,qu,pu,ku,qu,qu)
 #-------------------------------Input Function------------------------------------------
 def input():
   global nom
-  nom = raw_input("%s[%s?%s] %sMasukkan nomor target (8xxxx) : "%(pu,me,pu,pu))
+  nom = raw_input("%s[%s?%s] %sMasukkan nomor target (888xx) : "%(pu,me,pu,pu))
   if len(nom) < 5:
     print "%s[%s!%s] %sMasukkan nomor target dengan benar!!"%(pu,me,pu,me)
     input()
   elif nom.startswith(tuple(["62","+62","0"])):
-    print "%s[%s!%s] %sMasukkan nomor tanpa 62, +62, ataupun 0\n%s[%s!%s] %sContoh : 85877162199"%(pu,me,pu,ku,pu,me,pu,ku)
+    print "%s[%s!%s] %sMasukkan nomor tanpa 62, +62, ataupun 0\n%s[%s!%s] %sContoh : 83112170548"%(pu,me,pu,ku,pu,me,pu,ku)
     input()
   else:
     global jum
